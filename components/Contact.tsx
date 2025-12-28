@@ -44,22 +44,25 @@ const Contact = () => {
       <AnimatedBackground />
       <div className="max-w-6xl mx-auto relative z-10">
         <ScrollReveal direction="down">
-          <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-purple-400">Touch</span>
-          </h2>
-          <p className="text-center text-gray-400 mb-16 text-lg">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
-          </p>
+          <>
+            <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
+              Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-purple-400">Touch</span>
+            </h2>
+            <p className="text-center text-gray-400 mb-16 text-lg">
+              I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            </p>
+          </>
         </ScrollReveal>
         
         <div className="max-w-3xl mx-auto">
           <ScrollReveal direction="up" delay={100}>
-            <div className="text-center mb-12">
-              <p className="text-gray-300 mb-12 leading-relaxed text-base max-w-2xl mx-auto">
-                Feel free to reach out if you're looking for a developer, have a question,
-                or just want to connect.
-              </p>
-            </div>
+            <>
+              <div className="text-center mb-12">
+                <p className="text-gray-300 mb-12 leading-relaxed text-base max-w-2xl mx-auto">
+                  Feel free to reach out if you&apos;re looking for a developer, have a question,
+                  or just want to connect.
+                </p>
+              </div>
             
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <a 
@@ -112,6 +115,7 @@ const Contact = () => {
                 ))}
               </div>
             </div>
+            </>
           </ScrollReveal>
         </div>
       </div>
