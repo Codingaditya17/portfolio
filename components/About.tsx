@@ -24,7 +24,7 @@ const About = () => {
           <ScrollReveal direction="right" delay={100}>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I’m Aditya Patel, a backend and distributed-systems focused engineer who builds reliable services that
+                I&apos;m Aditya Patel, a backend and distributed-systems focused engineer who builds reliable services that
                 handle scale, performance, and production realities. I enjoy designing clean APIs, resilient microservices,
                 and data pipelines with strong observability, CI/CD, and operational discipline.
               </p>
